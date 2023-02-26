@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.logo{
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+
+span{
+    color: #f9004d;
+}
+
+nav ul li{
+    background-color: red;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: all .3s;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+    transform: .4s;
+}
+
+#btnInicio{
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+.btn{
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.Main{
+   display: flex;
+   background-color: red;
+   justify-content: center;
+   padding: 15px;
+   gap: 300px;
+   flex-wrap: wrap;
+}
+
+.textoPrincipal{
+    margin-top: 60px;
+    background-color: blue;
+    padding: 30px;
+    height: 300px;
+}
+
+span{
+    color: #f9004d;
+}
+
+h1{
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#foto{
+    max-width: 450px;
+    max-height: 1000px;
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+.redeSocias{
+    display: flex;
+}
+
+.redeSocias #linkedin{
+    background-image: url(https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white);
+    
+    margin-right: 20px;
+}
+
+.redeSocias #github{
+    background-image: url(../images/githublogo.png);
+    background-position: center;
+    background-size: 102px;
+    margin-right: 20px;
+}
+
+.redeSocias #email{
+    background-image: url(https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white);
+    background-position: center;
+    background-size: 102px;
+    margin-right: 20px;
+}
+
+.redeSocias a{
+    background-position: center;
+    background-color: #ffffff;
+    width: 105px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 22px 0px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    transition: all .3s;
+}
+
+.redeSocias a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+@media screen and (max-width: 1280px) {
+    .Main{
+        gap: 100px;
+    }
+
+    .textoPrincipal{
+        
+    }
+
+}
