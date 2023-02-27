@@ -13,7 +13,7 @@ body{
 }
 
 nav{
-    background-color: green;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,19 +33,19 @@ span{
 }
 
 .cabeçalho-link{
-    background-color: black;
+   
     padding: 15px;
 }
 
 nav ul li{
-    background-color: red;
+    
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
 }
 
 nav ul li a{
-    background-color: blue;
+   
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -81,7 +81,7 @@ nav ul li a:hover{
 
 .Main{
    display: flex;
-   background-color: red;
+   
    justify-content: center;
    padding: 15px;
    gap: 300px;
@@ -90,7 +90,7 @@ nav ul li a:hover{
 
 .textoPrincipal{
     margin-top: 60px;
-    background-color: blue;
+    
     padding: 30px;
     height: 300px;
 }
@@ -176,7 +176,7 @@ h3{
 
 @media screen and (max-width: 1280px) {
     .Main{
-        gap: 100px;
+        gap: 10px;
     }
 
 
