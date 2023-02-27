@@ -54,8 +54,9 @@ nav ul li a{
 }
 
 nav ul li a:hover{
+    border: 0;
     border-bottom: 2px solid #ffffff;
-    transform: .4s;
+   
 }
 
 #btnInicio{
@@ -71,17 +72,17 @@ nav ul li a:hover{
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 30px;
-    transition: transform .4s;
-    margin: 100px;
+    transition: all .4s;
+
 }
 
 .btn:hover{
-    transform: scale(1.2);
+    background-color: green;
+    transform: scale(2);
 }
 
 .Main{
    display: flex;
-   
    justify-content: center;
    padding: 15px;
    gap: 300px;
