@@ -386,8 +386,8 @@ footer{
         justify-content: center ;
         flex-direction: column;
         gap: 10px;
-        padding-top: 0px;
-        padding-bottom: 1px;
+        padding-top: 5px;
+        padding-bottom: 10px;
     }
 
     nav ul li{
