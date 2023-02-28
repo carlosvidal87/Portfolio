@@ -17,7 +17,7 @@ body{
 }
 
 #cabeçalho{
-    
+    z-index: 1000;
     display: flex;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
@@ -401,7 +401,7 @@ footer{
         font-size: 60px;
     }
 
-    button{
+    .button{
         display: none;
     }
 
