@@ -17,6 +17,7 @@ body{
 }
 
 #cabeçalho{
+    
     display: flex;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
@@ -378,6 +379,7 @@ footer{
         justify-content: center;
         position: fixed;
         padding-top: 20px;
+        width: 100%;
     }   
 
     nav{
