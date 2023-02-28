@@ -413,6 +413,10 @@ footer{
     .Text-sobre p{
         margin-bottom: 0px;
     }
+    
+    .Text-sobre h2{
+        font-size: 60px;
+    }
 
     button{
         display: none;
