@@ -13,19 +13,19 @@
     
     <!---Cabeçalho-Main-->
 
-    <div class="background">
-        
+    <div id="inicio" class="background">
+        <div id="cabeçalho">
             <nav>
-                <h2 class="logo">Portfo<span>lio</span> - in Progress</h2><!--Logo-->
+                <h2 class="logo">Portfó<span>lio</span> - In Progress</h2><!--Logo-->
                 <ul class="cabeçalho-link">
-                    <li><a id="btninicio" href="#">Inicio</a></li>
-                    <li><a id="btnSobreMim" href="#">Sobre mim</a></li>
-                    <li><a id="btnProjetos" href="#">Prejetos</a></li>
-                    <li><a id="btnHabilidades" href="#">Habilidades</a></li>
+                    <li><a id="btninicio" href="#inicio">Inicio</a></li>
+                    <li><a id="btnSobreMim" href="#sobre">Sobre mim</a></li>
+                    <li><a id="btnProjetos" href="#projetos">Prejetos</a></li>
+                    <li><a id="btnHabilidades" href="#habilidades">Habilidades</a></li>
                     <a href="https://www.linkedin.com/in/carlosvidal87/" class="btn">Contrate-me</a>
                 </ul><!--cabeçalho-link-->   
             </nav>
-        
+        </div>
 
         <div class="Main">
             <div class="textoPrincipal">
@@ -43,6 +43,67 @@
             </div>
         </div><!--Main-->
     </div><!--background-->
+
+
+        <!--Começo-da-seção-sobre-->
+
+        <section id="sobre" class="background-color-Sobre">
+            <div class="main-sobre">
+                <img id="imgSobre" src="./assets/images/profile.png">
+                <div class="Text-sobre">
+                    <h2>Sobre-Mim</h2>
+                    <h5>Engenheiro <span>de Software</span></h5>
+                    <p>Eu sou um Desenvolvedor Full-Stack. Eu gosto muito de aprender e trabalhar com programação, minha maior paixão é o back-end com Java e Javascript, porém tenho muitas habilidades no front-end onde exploro muito a minha criatividade e refino qualquer página da melhor maneira possível, sempre buscando a melhor qualidade.</p>
+                    <button type="button">Vamos conversa</button><!--Button-->
+                </div><!--Text-sobre-->
+            </div><!--main-sobre-->
+        </section><!--background-color-Sobre-->
+
+
+
+
+        <div id="projetos" class="Container-projetos">
+            <div class="title">
+                <h2>Projetos</h2>
+            </div><!--title-->
+    
+            <div class="Caixa">
+                <div id="embreve" class="Card">
+                    <h5>Em Breve</h5>
+                    <div class="Paragrafo-button">
+                        <img id="fotoprojeto" src="assets/images/embreve.png">                    </div><!--Paragrafo-button-->
+                </div><!--Card-->
+    
+                <div id="login" class="Card">
+                    <h5>Login e Cadastro Funcionais</h5>
+                    <div class="Paragrafo-button">
+                        <img id="fotoprojeto" src="assets/images/login.png">
+                        <button type="button">Acessar</button><!--button-->
+                    </div><!--Paragrafo-button-->
+                </div><!--Card-->
+    
+                <div id="embreve" class="Card">
+                    <h5>Em breve</h5>
+                    <div class="Paragrafo-button">
+                        <img id="fotoprojeto" src="assets/images/embreve.png">
+                    </div><!--Paragrafo-button-->
+                </div><!--Card-->
+                
+            </div><!--Caixa-->
+        </div><!--container-projetos-->
+
+
+        <section id="habilidades" class="background-color-habilidades">
+            <div class="main-habilidades">
+                <div class="title">
+                    <h2>Habilidades</h2>
+                </div>
+
+            </div><!--main-sobre-->
+        </section><!--background-color-Sobre-->
+        <footer>
+            <p>CopyRight By Carlos Eduardo Vidal</p>
+        </footer>
 
 </body>
 </html>
