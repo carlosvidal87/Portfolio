@@ -49,10 +49,6 @@ span{
     color: rgb(0, 68, 255);
 }
 
-.cabeçalho-link{
-    margin-right: 10px;
-}
-
 nav ul li{
     list-style-type: none;
     display: inline-block;
