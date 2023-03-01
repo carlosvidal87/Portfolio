@@ -439,6 +439,7 @@ footer{
 @media only screen and (max-width: 470px) {
   #cabeçalho {
     font-size: 14px;
+    padding-top: 15px;
   }
 
   nav {
@@ -450,6 +451,10 @@ footer{
   nav > * {
     font-size: 15px;
     margin: 0px;
+  }
+
+  .Main{
+    padding-top: 20%;
   }
 }
 
