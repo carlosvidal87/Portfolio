@@ -356,9 +356,9 @@ h5{
 }
 
 .habilidade {
-    width: calc(100% / 3 - 20px);
-    height: calc(100% - 20px);
-    margin-bottom: 25px;
+    width: calc((100% - 40px) / 4);
+    height: calc(100% - 40px);
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
