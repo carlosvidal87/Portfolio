@@ -250,15 +250,13 @@ h3{
     cursor: pointer;
 }
 
-
-
-.Container-projetos{
+.Container-projetos {
     background-color: #101010;
     width: 100%;
-    padding: 100px 0px;
-}
-
-.title h2{
+    padding: 100px 0px 70px 0px;
+  }
+  
+  .title h2 {
     display: flex;
     position: flex;
     color: #fff;
@@ -267,17 +265,32 @@ h3{
     margin: 30px auto;
     text-align: center;
     justify-content: center;
-}
-
-.Caixa{
-    background-color: green;
+  }
+  
+  .Caixa {
+    overflow-y: auto;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
-    flex-wrap: nowrap;
+    min-height: 450px;
     overflow-x: auto;
-}
+    padding: 10px; /* Adicionado para evitar que o elemento esquerdo seja cortado */
+  }
+
+  .Caixa::-webkit-scrollbar {
+    height: 6px; /* altura da barra de rolagem */
+    background-color: #191919; /* cor de fundo da barra de rolagem */
+  }
+  
+  .Caixa::-webkit-scrollbar-thumb {
+    background-color: #000; /* cor do polegar da barra de rolagem */
+    border-radius: 5px; /* arredondamento do polegar da barra de rolagem */
+  }
+  
+  .Caixa::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* cor do polegar da barra de rolagem quando o mouse estiver sobre ele */
+  }
 
 .Card{
     flex: 0 0 auto;
