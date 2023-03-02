@@ -79,6 +79,7 @@ nav ul li a:hover{
 }
 
 .btn{
+    display: inline-block;
     background-color: #0084db;
     color: #fff;
     text-decoration: none;
@@ -90,7 +91,7 @@ nav ul li a:hover{
 }
 
 .btn:hover{
-    transform: scale(1.2);
+    transform: scale(1.2) !important;
 }
 
 .Main{
