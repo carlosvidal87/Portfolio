@@ -61,6 +61,8 @@ body{
 }
 
 .logo h3{
+    color: #fff;
+    cursor: pointer;
     margin: 0px;
     margin-right: 5px;
     font-size: 20px;
@@ -97,7 +99,7 @@ nav ul li a:hover{
 
 .btn{
     display: inline-block;
-    background-color: #0084db;
+    background-color: #0076c5;
     color: #fff;
     text-decoration: none;
     border: 2px solid transparent;
@@ -159,7 +161,7 @@ h3{
 }
 
 .redeSocias #linkedin{
-    background-image: url(https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white);
+    background-image: url(https://img.shields.io/badge/LinkedIn-006fb9?style=for-the-badge&logo=linkedin&logoColor=white);
     
     margin-right: 20px;
 }
@@ -172,7 +174,7 @@ h3{
 }
 
 .redeSocias #email{
-    background-image: url(https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white);
+    background-image: url(https://img.shields.io/badge/Gmail-006fb9?style=for-the-badge&logo=gmail&logoColor=white);
     background-position: center;
     background-size: 102px;
     margin-right: 20px;
@@ -359,7 +361,7 @@ h5{
 .main-habilidades {
     max-width: 960px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 70px 20px;
 }
 
 .title {
