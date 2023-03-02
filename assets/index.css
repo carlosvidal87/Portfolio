@@ -167,9 +167,9 @@ h3{
 }
 
 .redeSocias #github{
-    background-image: url(./images/githublogo.png);
+    background-image: url(images/githublogo.png);
     background-position: center;
-    background-size: 102px;
+    background-size: 101px;
     margin-right: 20px;
 }
 
