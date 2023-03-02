@@ -429,6 +429,7 @@ footer{
 @media screen and (max-width: 1080px){
     .Main{
         padding: 0px;
+        padding-top: 17%;
     }
     
     .textoPrincipal{
@@ -459,10 +460,6 @@ footer{
         width: 100px;
     }
 
-    .Main{
-        padding-top: 17%;
-    }
-
     .redeSocias{
         justify-content: center;
     }
@@ -472,6 +469,11 @@ footer{
     left: 4%;
     top: 92%;
     }
+
+    .background-color-Sobre {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }    
 
     .Text-sobre p{
         margin-bottom: 0px;
@@ -515,7 +517,7 @@ footer{
   }
 
   .Main{
-    padding-top: 20%;
+    padding-top: 24%;
   }
     .Main h3{
         font-size: 20px;
