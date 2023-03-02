@@ -38,7 +38,7 @@ body{
     text-align: center;
     align-items: center;
     justify-content: space-between; /* Alinha os itens do nav nos extremos esquerdo e direito da tela */
-    padding: 30px;
+    padding: 25px 40px;
     flex-wrap: wrap;
   }
   
@@ -47,10 +47,27 @@ body{
   }
 
 .logo{
+    display: flex;
+    flex-direction: column; /* Altera a direção dos itens para coluna */
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h2{
     color: #fff;
     font-size: 35px;
     cursor: pointer;
     letter-spacing: 1px;
+}
+
+.logo h3{
+    margin: 0px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.logo h3 span{
+    color: rgba(255, 255, 255, 0);
 }
 
 span{
