@@ -524,7 +524,7 @@ footer{
     .Main h3{
         font-size: 20px;
     }
-    .Card{
-        transition: none; 
+    .Card:hover{
+      display: none; 
     }
 }
