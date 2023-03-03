@@ -20,8 +20,6 @@ body{
     width: 100%;
 }
 
-
-
 #cabeçalho {
     z-index: 1000;
     display: flex;
@@ -525,5 +523,8 @@ footer{
   }
     .Main h3{
         font-size: 20px;
+    }
+    .Card{
+        transition: none; 
     }
 }
