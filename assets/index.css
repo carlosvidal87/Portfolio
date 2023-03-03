@@ -146,14 +146,10 @@ h3{
 }
 
 #foto{
-    max-width: 450px;
+    max-width: 800px;
     max-height: 1000px;
     width: auto;
     height: auto;
-    border-radius: 100%;
-    border-width: 5px;
-    border-style: solid;
-    border-color: white;
 }
 
 .redeSocias{
@@ -162,7 +158,6 @@ h3{
 
 .redeSocias #linkedin{
     background-image: url(https://img.shields.io/badge/LinkedIn-006fb9?style=for-the-badge&logo=linkedin&logoColor=white);
-    
     margin-right: 20px;
 }
 
@@ -209,7 +204,7 @@ h3{
     background-color: #191919;
     width: 100%;
     margin-top: 12.5%;
-    padding: 50px 15px 50px 20px;
+    padding: 50px 15px 0px 20px;
     
 }
 
@@ -254,7 +249,7 @@ h3{
 
 #imgSobre{
     filter: grayscale(100%);
-    border-radius: 150px;
+    transform: scaleX(-1);
 }
 
 .button{
