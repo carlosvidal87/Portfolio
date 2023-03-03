@@ -20,6 +20,8 @@ body{
     width: 100%;
 }
 
+
+
 #cabeçalho {
     z-index: 1000;
     display: flex;
@@ -347,6 +349,11 @@ h5{
 
 #fotoprojeto{
     max-width: 335px;
+}
+
+#fotoprojetologin{
+    max-width: 335px;
+    height: 230px;
 }
 
 .background-color-habilidades {
