@@ -1,5 +1,5 @@
 let btnLogin = document.querySelector('#btnLogin')
 
 btnLogin.addEventListener('click', ()=>{
-    window.open('https://www.exemplo.com', '_blank');
+    window.open('https://carlosvidal-login.netlify.app', '_blank');
 })
